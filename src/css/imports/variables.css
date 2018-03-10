@@ -1,0 +1,17 @@
+
+:root {
+
+    /* brand colors */
+    --col-primary: #000;
+    --col-primary-hover: #000;
+    --col-secondary: #fff;
+    --col-secondary-hover: #fff;
+
+    /* typography */
+    --font-fam-primary: Roboto, sans-serif;
+    --font-fam-secondary: serif;
+    --font-col-primary: purple;
+    --font-col-secondary: green;
+
+  }
+  

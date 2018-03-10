@@ -2,13 +2,15 @@
   You can use import statements to include partials:
  */
 @import "imports/reset.css";
+@import "imports/variables.css";
 
 
 /*
   Or add your statements here:
  */
 body{
-  font-family: sans-serif;
+  font-family: var(--font-fam-primary);
+  color: var(--font-col-primary);
   font-size: 1em;
   text-align: center;
 }
