@@ -39,3 +39,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     pre = "<i class='fa fa-road'></i>"
     weight = 4
     url = "/contact/"
+
+# Footer Copyright Name
+# [params.copyright]
+#     text = """Collins Moore""

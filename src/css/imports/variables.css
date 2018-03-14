@@ -16,5 +16,12 @@
     --font-col-primary: purple;
     --font-col-secondary: green;
 
+
+    /* footer */
+    --footer-size: 0.9rem;
+    --footer-bg: grey ;
+    --footer-color: #fff;
+    --footer-link: #fff ;
+    --footer-link-hover: #fff ;
   }
   
