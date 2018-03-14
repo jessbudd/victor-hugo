@@ -42,7 +42,7 @@ GLOBAL LAYOUT
 
 /*SECTIONS*/
 section:not(.map) {
-  padding: 100px 0;
+  padding: 80px 20px;
 }
 section:nth-of-type(odd) {
   background-color: lightgrey;
@@ -69,13 +69,28 @@ body{
   text-align: center;
   /* font-weight: 300; */
 }
+h2 {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+h3 {
+  margin: 20px 0;
+  font-weight: normal;
+}
+.cta h2 {
+  text-transform: none;
+  font-size: 1.7rem;
+}
 
 /*HEADER*/
 
-.header li a {
+.navbar li {
+  color: var(--font-col-primary);
+  padding-left: 15px;
+}
+.navbar li  a {
   color: var(--font-col-primary);
 }
-
 /*NAVIGATION*/
 
 
@@ -129,19 +144,25 @@ GLOBAL COMPONENTS
 *****************************************************************/
 
 /*BUTTONS*/
-.btn-primary {
+
+.btn {
+  padding: 0.55rem 2rem
+}
+a.btn-primary {
   background-color: var(--col-primary);
   border-color: var(--col-primary);
+  margin-top: 20px;
+  color: var(--col-secondary);
 }
-.btn-primary:hover {
+a.btn-primary:hover {
   background-color: var(--col-primary-hover);
   border-color: var(--col-primary-hover);
 }
-.btn-outline-primary {
+a.btn-outline-primary {
   color: var(--col-primary);
   border-color: var(--col-primary);
 }
-.btn-outline-primary:hover {
+a.btn-outline-primary:hover {
   color: var(--col-primary-hover);
   border-color: var(--col-primary-hover);
 }
