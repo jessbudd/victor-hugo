@@ -40,9 +40,23 @@ GLOBAL LAYOUT
 /*NAVIGATION*/
 
 
+/*SECTIONS*/
+section {
+  padding: 100px 0;
+}
+section:nth-of-type(odd) {
+  background-color: lightgrey;
+}
 
 /*FOOTER*/
 
+.footer {
+  padding: 30px 0;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 30px;
+}
 
 /****************************************************************
 GLOBAL TYPOGRAPHY
@@ -93,11 +107,20 @@ footer {
   color: var(--footer-link-hover);  
 }
 
-footer .copyright {
+footer .footer-col-1 {
+  text-align: left;
+  font-size: .8rem;
+}
+footer .footer-col-2 {
   text-align: left;
 }
-footer .credit {
-  text-align: right;
+.footer-col-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.footer p {
+  margin-bottom: 10px;
 }
 
 /****************************************************************
@@ -105,8 +128,14 @@ GLOBAL COMPONENTS
 *****************************************************************/
 
 /*BUTTONS*/
-
-
+.btn-primary {
+  background-color: var(--col-primary);
+  border-color: var(--col-primary);
+}
+.btn-outline-primary {
+  color: var(--col-primary);
+  border-color: var(--col-primary);
+}
 /*FORMS*/
 
 

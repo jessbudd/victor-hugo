@@ -2,13 +2,14 @@
 :root {
 
     /* brand colors */
-    --col-primary: #000;
+    --col-primary: red;
     --col-primary-hover: #000;
     --col-secondary: #fff;
     --col-secondary-hover: #fff;
     --col-link: purple;
     --col-link-hover: green;
     --col-link-visited: color(purple tint(50%));
+
 
     /* typography */
     --font-fam-primary: Roboto, sans-serif; 
