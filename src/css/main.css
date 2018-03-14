@@ -3,17 +3,59 @@
  */
 @import "imports/reset.css";
 @import "imports/variables.css";
+@import "imports/helpers.css";
 
 
-/*
-  Or add your statements here:
- */
+
+/****************************************************************
+GLOBAL LAYOUT
+****************************************************************/
+
+/*TOPBAR*/
+
+.topbar {
+  background: #000;
+  color: #fff;
+}
+.topbar li {
+  list-style: none;
+  display:inline;
+  margin-left:10px;
+}
+.topbar li a {
+  color: #fff;
+  font-weight: 300;
+}
+
+/*HEADER*/
+
+
+
+/*NAVIGATION*/
+
+
+
+/*FOOTER*/
+
+
+/****************************************************************
+GLOBAL TYPOGRAPHY
+****************************************************************/
+
 body{
   font-family: var(--font-fam-primary);
   color: var(--font-col-primary);
   font-size: 1em;
   text-align: center;
 }
+
+/*NAVIGATION*/
+
+
+/*HEADER*/
+
+
+/*LINKS*/
 
 a {
   color: var(--col-link); 
@@ -23,3 +65,34 @@ a:visited,
 a:focus {
   color: var(--col-link-visited); 
 }
+
+
+/*FOOTER*/
+
+
+/****************************************************************
+GLOBAL COMPONENTS
+*****************************************************************/
+
+/*BUTTONS*/
+
+
+/*FORMS*/
+
+
+/*****************************************************************
+PAGE SPECIFIC STYLES
+******************************************************************/
+
+
+/*HOMEPAGE*/
+
+
+/*ABOUT PAGE*/
+
+
+/*SERVICES PAGE*/
+
+
+/*CONTACT PAGE*/
+
