@@ -1,0 +1,10 @@
+{{ partial "header" . }}
+
+
+{{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
+{{ .Content }}
+{{ end }}
+
+
+
+{{ partial "footer" . }}

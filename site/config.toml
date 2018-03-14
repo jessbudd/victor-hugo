@@ -1,9 +1,41 @@
 baseurl = "/"
 languageCode = "en-au"
 languageLang = "en"
+defaultContentLanguage = "en"
+
 title = "Collins Moore Chartered Accountants"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-road'></i>"
+    weight = 1
+    url = "/"
+    
+[[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = 2
+    url = "/about/"
+
+[[menu.main]]
+    name = "Services"
+    pre = "<i class='fa fa-road'></i>"
+    weight = 3
+    url = "/services/"
+
+[[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-road'></i>"
+    weight = 4
+    url = "/contact/"

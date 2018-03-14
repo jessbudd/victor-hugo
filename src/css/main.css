@@ -14,3 +14,12 @@ body{
   font-size: 1em;
   text-align: center;
 }
+
+a {
+  color: var(--col-link); 
+}
+a:hover,
+a:visited,
+a:focus {
+  color: var(--col-link-visited); 
+}
