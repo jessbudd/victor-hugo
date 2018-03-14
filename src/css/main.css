@@ -41,7 +41,7 @@ GLOBAL LAYOUT
 
 
 /*SECTIONS*/
-section {
+section:not(.map) {
   padding: 100px 0;
 }
 section:nth-of-type(odd) {
@@ -67,11 +67,12 @@ body{
   color: var(--font-col-primary);
   font-size: 1em;
   text-align: center;
+  /* font-weight: 300; */
 }
 
 /*HEADER*/
 
-header li a {
+.header li a {
   color: var(--font-col-primary);
 }
 
@@ -132,10 +133,19 @@ GLOBAL COMPONENTS
   background-color: var(--col-primary);
   border-color: var(--col-primary);
 }
+.btn-primary:hover {
+  background-color: var(--col-primary-hover);
+  border-color: var(--col-primary-hover);
+}
 .btn-outline-primary {
   color: var(--col-primary);
   border-color: var(--col-primary);
 }
+.btn-outline-primary:hover {
+  color: var(--col-primary-hover);
+  border-color: var(--col-primary-hover);
+}
+
 /*FORMS*/
 
 
@@ -145,7 +155,10 @@ PAGE SPECIFIC STYLES
 
 
 /*HOMEPAGE*/
+section.map {
+  height: 400px;
 
+}
 
 /*ABOUT PAGE*/
 

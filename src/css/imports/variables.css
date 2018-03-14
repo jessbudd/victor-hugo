@@ -2,13 +2,13 @@
 :root {
 
     /* brand colors */
-    --col-primary: red;
-    --col-primary-hover: #000;
+    --col-primary: #B5121B;
+    --col-primary-hover: color(#B5121B tint(50%));
     --col-secondary: #fff;
     --col-secondary-hover: #fff;
     --col-link: purple;
-    --col-link-hover: green;
-    --col-link-visited: color(purple tint(50%));
+    --col-link-hover: #B5121B;
+    --col-link-visited: color(#B5121B tint(50%));
 
 
     /* typography */
@@ -16,6 +16,7 @@
     --font-fam-secondary: serif;
     --font-col-primary: #3a3a3a;
     --font-col-secondary: green;
+    --font-weight: 300;
 
 
     /* footer */

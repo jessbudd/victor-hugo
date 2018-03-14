@@ -40,6 +40,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 4
     url = "/contact/"
 
-# Footer Copyright Name
+
+
+# [params]
+  
+#     # Google Maps API key (if not set will default to not passing a key.)
+#     googleMapsApiKey = "AIzaSyDjdFjFRUxq8tstdneT3_WOtbg2L5bTV1A"
+
+#     latitude = "-32.014507"
+#     longitude = "115.850208"
+
+
+
+# # Footer Copyright Name
 # [params.copyright]
 #     text = """Collins Moore""
