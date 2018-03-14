@@ -55,10 +55,14 @@ body{
   text-align: center;
 }
 
+/*HEADER*/
+
+header li a {
+  color: var(--font-col-primary);
+}
+
 /*NAVIGATION*/
 
-
-/*HEADER*/
 
 
 /*LINKS*/
@@ -79,11 +83,13 @@ footer {
   font-size: var(--footer-size);
 }
 
-footer a {
+.footer a,
+.footer a:visited  {
   color: var(--footer-link);  
 }
 
-footer a {
+.footer a:hover,
+.footer a:active {
   color: var(--footer-link-hover);  
 }
 
