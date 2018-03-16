@@ -35,7 +35,10 @@ GLOBAL LAYOUT
 
 /*HEADER*/
 
-
+.header {
+  background: #fff;
+  box-shadow: 0px 1px 4px #dcdcdc;
+}
 
 /*NAVIGATION*/
 
@@ -45,7 +48,7 @@ section:not(.map) {
   padding: 80px 20px;
 }
 section:nth-of-type(odd) {
-  background-color: lightgrey;
+  background-color: #efefef;
 }
 
 /*FOOTER*/
