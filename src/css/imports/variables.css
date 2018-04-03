@@ -1,27 +1,34 @@
 
 :root {
 
+--red: #B5121b;
+--grey: #4c4b4b;
+--black: #302f2f;
+
     /* brand colors */
-    --col-primary: #B5121B;
-    --col-primary-hover: color(#B5121B tint(50%));
+    --col-primary: var(--red);
+    --col-primary-hover: color(var(--red) tint(50%));
     --col-secondary: #fff;
     --col-secondary-hover: #fff;
-    --col-link: purple;
-    --col-link-hover: #B5121B;
+    --col-link: var(--red);
+    --col-link-hover: var(--red);
     --col-link-visited: color(#B5121B tint(50%));
 
 
     /* typography */
     --font-fam-primary: Roboto, sans-serif; 
     --font-fam-secondary: serif;
-    --font-col-primary: #3a3a3a;
+    --font-col-primary: var(--black);
     --font-col-secondary: green;
     --font-weight: 400;
+
+ /* topbar */
+ --topbar: var(--black);
 
 
     /* footer */
     --footer-size: 0.9rem;
-    --footer-bg: grey ;
+    --footer-bg: var(--grey) ;
     --footer-color: #fff;
     --footer-link: #fff ;
     --footer-link-hover: #fff ;

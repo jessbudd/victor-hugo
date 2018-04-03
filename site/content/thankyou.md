@@ -2,6 +2,8 @@
 title = "Submission Recieved"
 +++
 
-<div id="main" tabindex="-1"></div>
 
-# Submission Recieved!
+
+# Submission Recieved
+
+Thank you. Your submission has been recieved.

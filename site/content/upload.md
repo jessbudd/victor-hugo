@@ -1,10 +1,19 @@
 +++
 title = "Upload Your Files"
 +++
+<div id="upload" class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <h1>Upload Your Files</h1>
+        </div>
+    </div><!--row-->
+    <div class="row">
+        <div class="col-md-12">
+        <p>To upload your files to Collins Moore Chartered Accountants please use the form below.</p>
+        </div>
+    </div><!--row-->
 
-<div id="main" tabindex="-1"></div>
 
-# Upload Your Files
 
 <script src="https://cdn.jotfor.ms/js/vendor/imageinfo.js?v=3.3.5440" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/file-uploader/fileuploader.js?v=3.3.5440"></script>
@@ -17,6 +26,21 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"uploadYour","qid":"1","text":"Uploa
 <link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.5440" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.5440" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=59fb4852cf3bfe589c6c6f21"/>
- <form class="jotform-form" action="https://submit.jotform.co/submit/80921104284854/" method="post" enctype="multipart/form-data" name="form_80921104284854" id="80921104284854" accept-charset="utf-8"> <input type="hidden" name="formID" value="80921104284854" /> <div class="form-all"> <ul class="form-section page-section"> <li id="cid_1" class="form-input-wide" data-type="control_head"> <div class="form-header-group "> <div class="header-text httal htvam"> <h2 id="header_1" class="form-header" data-component="header"> Upload Your Files </h2> </div> </div> </li> <li class="form-line jf-required" data-type="control_textbox" id="id_7"> <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> Company Name <span class="form-required"> * </span> </label> <div id="cid_7" class="form-input-wide jf-required"> <input type="text" id="input_7" name="q7_companyName" data-type="input-textbox" class="form-textbox validate[required]" size="40" value="" data-component="textbox" required="" /> </div> </li> <li class="form-line jf-required" data-type="control_email" id="id_4"> <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Company Email <span class="form-required"> * </span> </label> <div id="cid_4" class="form-input-wide jf-required"> <input type="email" id="input_4" name="q4_email4" class="form-textbox validate[required, Email]" size="40" value="" data-component="email" required="" /> </div> </li> <li class="form-line" data-type="control_fileupload" id="id_5"> <label class="form-label form-label-top" id="label_5" for="input_5"> Choose your files to upload </label> <div id="cid_5" class="form-input-wide"> <div data-wrapper-react="true"> <span class="form-sub-label-container" style="vertical-align:top"> <div class="qq-uploader-buttonText-value"> Upload a File </div> <input type="file" id="input_5" name="q5_uploadFile[]" multiple="" class="form-upload-multiple" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, xls, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" data-file-maxsize="307201" data-file-minsize="0" data-file-limit="0" data-component="fileupload" /> <label class="form-sub-label" for="input_5" style="min-height:13px"> You can upload any type of file. Max: 300 MB </label> </span> <span style="display:none" class="cancelText"> Cancel </span> <span style="display:none" class="ofText"> of </span> </div> </div> </li> <li class="form-line" data-type="control_button" id="id_2"> <div id="cid_2" class="form-input-wide"> <div style="text-align:left" class="form-buttons-wrapper"> <button id="input_2" type="submit" class="form-submit-button" data-component="button"> Upload Files </button> </div> </div> </li> <li style="display:none"> Should be Empty: <input type="text" name="website" value="" /> </li> </ul> </div> <script> JotForm.showJotFormPowered = "new_footer"; </script> <input type="hidden" id="simple_spc" name="simple_spc" value="80921104284854" /> <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "80921104284854-80921104284854"; </script> <div class="formFooter-heightMask"> </div> <div class="formFooter"> <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=80921104284854&utm_content=jotform_logo&utm_campaign=powered_by_jotform_test_old_le" target="_blank" class="formFooter-logoLink"><img class="formFooter-logo" src="https://cdn.jotfor.ms/assets/img/logo/logo-new@1x.png" alt="" style="height: 44px;"></a> <div class="formFooter-rightSide"> <span class="formFooter-text"> Now create your own JotForm - It's free! </span> <a class="formFooter-button" href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=80921104284854&utm_content=jotform_button&utm_campaign=powered_by_jotform_test_old_le" target="_blank">Create your own JotForm</a> </div> </div>
+ <form class="jotform-form" action="https://submit.jotform.co/submit/80921104284854/" method="post" enctype="multipart/form-data" name="form_80921104284854" id="80921104284854" accept-charset="utf-8"> <input type="hidden" name="formID" value="80921104284854" /> <div class="form-all"> <ul class="form-section page-section"> <li id="cid_1" class="form-input-wide" data-type="control_head"> 
+ 
+ 
+ 
+ <li class="form-line jf-required" data-type="control_textbox" id="id_7"> <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> Company Name <span class="form-required"> * </span> </label> <div id="cid_7" class="form-input-wide jf-required"> <input type="text" id="input_7" name="q7_companyName" data-type="input-textbox" class="form-textbox validate[required]" size="40" value="" data-component="textbox" required="" /> </div> </li> <li class="form-line jf-required" data-type="control_email" id="id_4"> <label class="form-label form-label-top form-label-auto" id="label_4" for="input_4"> Company Email <span class="form-required"> * </span> </label> <div id="cid_4" class="form-input-wide jf-required"> <input type="email" id="input_4" name="q4_email4" class="form-textbox validate[required, Email]" size="40" value="" data-component="email" required="" /> </div> </li> <li class="form-line" data-type="control_fileupload" id="id_5"> <label class="form-label form-label-top" id="label_5" for="input_5"> Choose your files to upload </label> <div id="cid_5" class="form-input-wide"> <div data-wrapper-react="true"> <span class="form-sub-label-container" style="vertical-align:top"> 
+ 
+  <input type="file" id="input_5" name="q5_uploadFile[]" multiple="" class="form-upload-multiple" data-imagevalidate="yes" data-file-accept="pdf, doc, docx, xls, csv, txt, rtf, html, zip, mp3, wma, mpg, flv, avi, jpg, jpeg, png, gif" data-file-maxsize="307201" data-file-minsize="0" data-file-limit="0" data-component="fileupload" /> <label class="form-sub-label" for="input_5" style="min-height:13px"> You can upload any type of file. Max: 300 MB </label> </span> <span style="display:none" class="cancelText"> Cancel </span> <span style="display:none" class="ofText"> of </span> </div> </div> </li> <li class="form-line" data-type="control_button" id="id_2">
+ 
+  <div id="cid_2" class="form-input-wide"> <div style="text-align:left" class="form-buttons-wrapper"> <button id="input_2" type="submit" class="btn btn-primary" data-component="button"> Upload Files </button> </div> </div> </li> <li style="display:none"> 
+ 
+ Should be Empty: <input type="text" name="website" value="" /> </li> </ul> </div> <script> JotForm.showJotFormPowered = "new_footer"; </script> <input type="hidden" id="simple_spc" name="simple_spc" value="80921104284854" /> 
+ 
+ <script type="text/javascript"> document.getElementById("si" + "mple" + "_spc").value = "80921104284854-80921104284854"; </script> 
+ 
 </form>
+
+</div><!--upload-->
 <script type="text/javascript">JotForm.ownerView=true;</script>

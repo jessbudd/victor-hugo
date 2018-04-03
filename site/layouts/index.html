@@ -1,6 +1,5 @@
 {{ partial "header" . }}
-
-<div id="main" tabindex="-1"></div>
+<div id="homepage">
 
 <section class="hero">
   <h1>This is the main heading</h1>
@@ -14,7 +13,7 @@
       <div class="col-md-12">
         <h2>Services</h2>
       </div>
-    </div>
+    </div><!--row-->
     <div class="row">
       <div class="col-md-4">
         <img src="http://via.placeholder.com/300x250" alt="#" class="img-service img-fluid">
@@ -28,19 +27,25 @@
         <img src="http://via.placeholder.com/300x250" alt="#" class="img-service img-fluid">
         <h3 class="service-title">Service Three</h3>
       </div>
-    </div>
-  </div>
+    </div><!--row-->
+    <div class="row">
+      <div class="col-md-12">
+        <a href="" class="btn btn-primary" title="learn more about our services">Learn More</a>
+      </div>
+    </div><!--row-->
+
+</div><!--containter-->
 </section><!--services-->
 
 <section class="about">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-lg-4">
         <h2>About</h2>
         <p class="about-text">Lorem ipsum dolor amet ullamco lorem blog activated charcoal, you probably haven't heard of them officia ad actually wayfarers laborum consectetur church-key direct trade. Etsy sint intelligentsia blog, yr laborum organic sartorial seitan 90's wayfarers. Austin quis PBR&B aliqua. Fingerstache thundercats pug coloring book artisan woke swag marfa mollit duis narwhal forage aesthetic craft beer.</p>
-        <a href="" class="btn btn-primary" title="learn more about our team">Learn More</a>
+        
       </div>
-      <div class="col-sm-8">
+      <div class="col-lg-8">
         <img src="http://via.placeholder.com/500x400" alt="#" class="img-about img-fluid">
       </div>
     </div><!--row-->
@@ -62,19 +67,8 @@
 
 </section>
 
-<section class="community">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        <p>Corporate Sponsor</p>
-        <a href="#"><img src="" alt="WA Charity Direct" class="img-fluid img-sponsor"></a>
-      </div>
-      <div class="col-sm-6">
-        <p>Founding Member</p>
-        <a href="#"><img src="" alt="Devils Advocate" class="img-fluid img-sponsor"></a>
-      </div>
-    </div>
-  </div>
-</section>
+{{ partial "community" . }}
 
 {{ partial "footer" . }}
+
+</div><!--homepage-->
