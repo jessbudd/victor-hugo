@@ -24,6 +24,10 @@
     padding: 20px 0;
 }
 
+#contact .jotform-form {
+    padding-bottom: 50px;
+}
+
 @media screen and (min-width: 768px) {
     #main .jotform-form {
         padding: 20px 0;
@@ -252,7 +256,7 @@
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       border-radius: 0px;
-      height:200px;
+      height:150px;
     }
     .form-all .form-submit-button,
     .form-all .form-submit-reset,
@@ -1232,7 +1236,7 @@
     
     }
     #main .form-line {
-        padding: 4px 36px
+        padding: 2px 36px
     }
     input {
         height: 40px;
@@ -1240,3 +1244,11 @@
         /* Injected CSS Code */
 
 .formFooter {display: none}
+
+#main .form-textarea {
+    font-family: 'Roboto', Arial;
+}
+
+.form-all {
+    max-width: 100%;
+}

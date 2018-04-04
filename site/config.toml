@@ -26,19 +26,19 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     weight = 2
-    url = "/about/"
+    url = "#about"
 
 [[menu.main]]
     name = "Services"
     pre = "<i class='fa fa-road'></i>"
     weight = 3
-    url = "/services/"
+    url = "#services"
 
 [[menu.main]]
     name = "Contact"
     pre = "<i class='fa fa-road'></i>"
     weight = 4
-    url = "/contact/"
+    url = "#contact"
 
 
 

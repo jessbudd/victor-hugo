@@ -4,18 +4,12 @@ title = "Contact Us"
 <div id="contact" class="container">
     <div class="row">
         <div class="col-md-12">
-        <h1>Contact Collins Moore Chartered Accountants</h1>
+        <h1>Send a Message</h1>
         </div>
     </div><!--row-->
     <div class="row">
-        <div class="col-lg-12">
-            <p>Phone: <a href="tel:0863233130">(08) 6323 3130</a></p>
-            <p>Email: <a href="mailto:info@collinsmoore.com.au">info@collinsmoore.com.au</a></p>
-            <p>Fax: 08) 6323 3370</p>
-            <p>Address: 70B Kishorn Road Mount Pleasant 6163</p>
-        </div><!--col-->
-    </div><!--row-->
 
+<div class="col-lg-6">
  <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
         <script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.5440" type="text/javascript"></script>
         <script type="text/javascript">
@@ -39,10 +33,9 @@ JotForm.prepareCalculationsOnTheFly([null,null,null,{"name":"email3","qid":"3","
         <input type="hidden" name="formID" value="80921319184861" />
         <div class="form-all">
             <ul class="form-section page-section">
-            <li>
-            <h2 style="padding-left: 36px;">Send an Enquiry</h2>
-            <li class="form-line jf-required" data-type="control_textbox" id="id_6">
-                <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6">
+
+<li class="form-line jf-required" data-type="control_textbox" id="id_6">
+                <label class="form-label form-label-top form-label-auto" id="label_6" for="input_6" style="font-family:'Roboto', sans-serif">
                 Name
                 <span class="form-required">
                     *
@@ -53,7 +46,7 @@ JotForm.prepareCalculationsOnTheFly([null,null,null,{"name":"email3","qid":"3","
                 </div>
             </li>
             <li class="form-line jf-required" data-type="control_textbox" id="id_3">
-                <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3">
+                <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3" style="font-family:'Roboto', sans-serif">
                 E-Mail
                 <span class="form-required">
                     *
@@ -64,7 +57,7 @@ JotForm.prepareCalculationsOnTheFly([null,null,null,{"name":"email3","qid":"3","
                 </div>
             </li>
             <li class="form-line jf-required" data-type="control_textarea" id="id_7">
-                <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7">
+                <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7" style="font-family:'Roboto', sans-serif">
                 Message
                 <span class="form-required">
                     *
@@ -98,7 +91,13 @@ JotForm.prepareCalculationsOnTheFly([null,null,null,{"name":"email3","qid":"3","
         </script>
         </div>
         </form>
-   
-
 <script type="text/javascript">JotForm.ownerView=true;</script>
+</div><!--col-->
+ <div class="col-lg-6">
+            <p>Phone: <a href="tel:0863233130">(08) 6323 3130</a></p>
+            <p>Email: <a href="mailto:scott@collinsmoore.com.au">scott@collinsmoore.com.au</a></p>
+            <p>Fax: 08) 6323 3370</p>
+            <p>Address: 70B Kishorn Road Mount Pleasant 6163</p>
+        </div><!--col-->
+</div><!--row-->
 </div><!--container-->
