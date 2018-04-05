@@ -1265,6 +1265,10 @@
     margin-top: 0;
 }
 
+button#input_2.btn-primary {
+  margin-top: 0;
+}
+
 #contact .form-textbox, #contact .form-textarea {
     padding: 4px 3px 2px 14px;
 }
