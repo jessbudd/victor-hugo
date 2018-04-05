@@ -1235,7 +1235,7 @@
         }
     
     }
-    .homepage #main .form-line {
+    #homepage .form-line {
         padding: 2px 0px ;
     }
     input {
