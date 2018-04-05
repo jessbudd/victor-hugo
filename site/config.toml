@@ -25,13 +25,13 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
-    weight = 2
+    weight = 3
     url = "#about"
 
 [[menu.main]]
     name = "Services"
     pre = "<i class='fa fa-road'></i>"
-    weight = 3
+    weight = 2
     url = "#services"
 
 [[menu.main]]

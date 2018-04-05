@@ -56,8 +56,11 @@ GLOBAL LAYOUT
 
 
 /*SECTIONS*/
- section:not(.map) {
+ section:not(#contact) {
   padding: 80px 20px;
+}
+section#contact {
+  padding: 25px 20px;
 }
 
 
@@ -110,8 +113,22 @@ h1 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 20px 0;
+  margin: 0 0 60px 0;
+  position: relative;
 }
+
+  h2:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    width: 10%;
+    height: 1px;
+    margin-left: -5%;
+    background-color: var(--col-primary);
+  }
+
+
 h3 {
   margin: 20px 0;
   font-weight: normal;
@@ -228,7 +245,7 @@ PAGE SPECIFIC STYLES
 /*HOMEPAGE*/
 
 @media screen and (min-width: 768px) {
-  section.hero {
+  #main section.hero {
     padding: 150px;
   }
 }

@@ -1236,12 +1236,12 @@
     
     }
     #main .form-line {
-        padding: 2px 36px
+        padding: 2px 0px
     }
     input {
         height: 40px;
     }
-        /* Injected CSS Code */
+        
 
 .formFooter {display: none}
 
@@ -1251,4 +1251,16 @@
 
 .form-all {
     max-width: 100%;
+}
+#contact h2 {
+    color: var(--black);
+}
+
+#contact .btn-block {
+    width: 100%;
+    margin-top: 0;
+}
+
+#contact .form-textbox, #contact .form-textarea {
+    padding: 4px 3px 2px 14px;
 }

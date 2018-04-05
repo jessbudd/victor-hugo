@@ -27,7 +27,8 @@ export default {
   context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"],
-    app: ["./js/gmaps.init"]
+    app: ["./js/gmaps.init"],
+    app: ["./js/smoothscroll"]
   },
   output: {
     path: path.join(__dirname, "dist"),
