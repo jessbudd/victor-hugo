@@ -5,6 +5,7 @@
 @import "imports/variables.css";
 @import "imports/helpers.css";
 @import "imports/forms.css";
+@import "imports/animations.css";
 
 
 
@@ -108,16 +109,19 @@ body{
 
   /* font-weight: 300; */
 }
-h1 {
+h1:not(.title) {
   margin: 40px 0 ;
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 60px 0;
   position: relative;
 }
 
-  h2:after {
+h2.underline {
+  margin: 0 0 60px 0;
+}
+
+  h2.underline:after {
     content: "";
     position: absolute;
     left: 50%;
@@ -128,6 +132,9 @@ h2 {
     background-color: var(--col-primary);
   }
 
+  .about h2.underline:after {
+    left: 12%;
+  }
 
 h3 {
   margin: 20px 0;
@@ -254,6 +261,10 @@ PAGE SPECIFIC STYLES
   margin-top: 40px;
 }
 
+.cta p {
+  font-size: 1.8rem;
+}
+
 section.map {
   height: 400px;
 }
@@ -275,6 +286,9 @@ section.map {
 #homepage section:not(.about) {
   text-align:center;
 }
+/* .about h2 {
+  text-align: center;
+} */
 
 /*ABOUT PAGE*/
 
