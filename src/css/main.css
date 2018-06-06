@@ -256,6 +256,12 @@ PAGE SPECIFIC STYLES
   }
 }
 
+section.hero {
+  background-image: url("/img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
 .services .btn {
   margin-top: 40px;
 }
@@ -285,6 +291,9 @@ section.map {
 #homepage section:not(.about) {
   text-align:center;
 }
+
+
+
 /* .about h2 {
   text-align: center;
 } */
