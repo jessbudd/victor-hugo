@@ -13,6 +13,7 @@ GLOBAL LAYOUT
 ****************************************************************/
 
 
+
 /* CONTAINER */
 /* #main {
   padding: 0 20px;
@@ -105,6 +106,7 @@ body{
   color: var(--font-col-primary);
   font-size: 1em;
   text-align: left;
+  font-size: 18px;
 
   /* font-weight: 300; */
 }
@@ -257,9 +259,29 @@ PAGE SPECIFIC STYLES
 }
 
 section.hero {
-  background-image: url("/img/hero.jpg");
+  background-image: url("/img/hero2.jpeg");
   background-size: cover;
-  background-position: center center;
+  background-color: #333;
+  background-position: 70% center;
+  text-align: left;
+}
+
+.wrapper-hero-text {
+  max-width: 700px;
+}
+.hero .title {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0px 1px 5px #444;
+}
+p.subtitle {
+  font-size: 1.3rem;
+  color: #fff;
+  text-shadow: 0px 1px 5px #444;
+}
+
+.hero .btn.btn-primary {
+  font-size: 1.1rem;
 }
 
 .services .btn {
@@ -288,7 +310,7 @@ section.map {
   } 
 }
 
-#homepage section:not(.about) {
+#homepage section:not(.about):not(.hero) {
   text-align:center;
 }
 

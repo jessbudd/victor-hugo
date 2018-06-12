@@ -7,12 +7,12 @@
 
     /* brand colors */
     --col-primary: var(--red);
-    --col-primary-hover: color(var(--red) tint(50%));
+    --col-primary-hover: color(var(--red) shade(10%));
     --col-secondary: #fff;
     --col-secondary-hover: #fff;
     --col-link: var(--red);
     --col-link-hover: var(--red);
-    --col-link-visited: color(#B5121B tint(50%));
+    --col-link-visited: color(#B5121B shade(10%));
 
 
     /* typography */

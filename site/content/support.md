@@ -11,7 +11,7 @@ title = "Support Login"
     <div class="row">
         <div class="col-md-12">
         <p>Collins Moore can offer live login support to your PC. </p>
-		<p>Support needs to be pre-arranged and can be done so by calling (08) 6323 3130. </p>
+		<p>Support needs to be pre-arranged and can be done so by calling <a href="tel:0863233130">(08) 6323 3130.</a> </p>
 		<p>After requesting help below please select Open then Run.</p>
         </div>
     </div><!--row-->
