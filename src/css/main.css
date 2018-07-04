@@ -259,10 +259,11 @@ PAGE SPECIFIC STYLES
 }
 
 section.hero {
-  background-image: url("/img/hero2.jpeg");
+  background-image: url("/img/hero5.jpg");
   background-size: cover;
   background-color: #333;
-  background-position: 70% center;
+  background-position: 0 center;
+  background-repeat: none;
   text-align: left;
 }
 
@@ -278,6 +279,12 @@ p.subtitle {
   font-size: 1.3rem;
   color: #fff;
   text-shadow: 0px 1px 5px #444;
+}
+
+@media (max-width: 400px) {
+  p.subtitle {
+    font-size: 1.1rem;
+  }
 }
 
 .hero .btn.btn-primary {
