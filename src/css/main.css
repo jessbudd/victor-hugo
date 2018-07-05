@@ -104,9 +104,9 @@ GLOBAL TYPOGRAPHY
 body{
   font-family: var(--font-fam-primary);
   color: var(--font-col-primary);
-  font-size: 1em;
+  font-size: 1rem;
   text-align: left;
-  font-size: 18px;
+  font-size: 17px;
 
   /* font-weight: 300; */
 }
@@ -259,12 +259,13 @@ PAGE SPECIFIC STYLES
 }
 
 section.hero {
-  background-image: url("/img/hero5.jpg");
+  background-image: url("/img/hero5-20.jpg");
   background-size: cover;
   background-color: #333;
   background-position: 0 center;
   background-repeat: none;
   text-align: left;
+  position: relative;
 }
 
 .wrapper-hero-text {
@@ -291,10 +292,48 @@ p.subtitle {
   font-size: 1.1rem;
 }
 
-.services .btn {
-  margin-top: 40px;
+.hero .img-rights {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: rgba(255,255,255,.5);
+  font-size: .6rem;
+  font-weight: 300;
 }
 
+@media (min-width: 768px) {
+  .hero .img-rights {
+    color: rgba(255,255,255,.8);
+    font-size: .8rem;
+  }
+}
+
+
+.img-container {
+  width:100%;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width:768px) and (max-width:960px) {
+  .img-container {
+    min-height: 476px;
+  }
+}
+
+@media (min-width:960px){
+  .services h3  {
+    padding-bottom: 0;
+  }
+}
+/* .services .btn {
+  margin-top: 40px;
+} */
+
+.services h3 {
+  padding-bottom: 30px;
+}
 .cta p {
   font-size: 1.8rem;
 }
